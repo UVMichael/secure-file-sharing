@@ -17,4 +17,10 @@ A user who is granted access to a file is considered trusted and will only use t
 
 Malicious users may try to perform operations on arbitrary files by utilizing the request/response information that they recorded before their access was revoked. All writes to Datastore made by a user in an attempt to modify file content or re-acquire access to file are malicious actions.
 
+### Prerequisite To Run this Project
+- Install Golang v1.17 or newer.
+
+### Commands To Run this Project
+- In the client_test directory of the checked out repository, run `go test`. 
+
 
